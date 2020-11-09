@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SSLC English Quiz</string>
+    <string name="action_spelling">Spelling Quiz</string>
+    <string name="action_sentence">Sentence Completion Quiz</string>
+    <string name="action_glossary">Glossary Quiz</string>
+    <string name="action_meanings">Meaning Quiz</string>
+    <string name="action_search_meaning">Search Meaning</string>
+    <string name="action_search_relationships">Search Relationships</string>
+    <string name="search_hint">Spell word</string>
+
+    <string name="pos">POS</string>
+    <string name="description">Description</string>
+    <string name="main_image">Main Image</string>
+
+    <string name="loading_meanings">Loading meanings</string>
+    <string name="loading_relationships">Loading relationships</string>
+    <string name="search_relationships">Search Relationships</string>
+
+    <string name="action_antonym">Antonym</string>
+    <string name="action_synonym">Synonym</string>
+    <string name="action_relationships">Relationships</string>
+
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id= "@+id/wordnettableHeader"
+        android:layout_alignParentTop="true"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:id="@+id/tableRow0"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            tools:ignore="uselessParent">
+            <TextView
+                android:id="@+id/statusWord"
+                android:text=""
+                android:layout_weight="1.00"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/PapayaWhip"
+                android:background="@color/MidnightBlue"
+                android:textSize="16sp"
+                android:gravity="center_horizontal"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@color/header_background"
+            tools:ignore="uselessParent">
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/header_foreground"
+                android:gravity="start"
+                android:text="@string/pos"
+                />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="0.6"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/header_foreground"
+                android:gravity="start"
+                android:text="@string/description"
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/wordnettableHeader">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id= "@+id/tablelayout"
+            android:stretchColumns="*">
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

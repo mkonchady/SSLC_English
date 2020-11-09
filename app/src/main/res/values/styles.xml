@@ -1,0 +1,25 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+   <style name="NumberPickerText">
+   	 <item name="android:textSize">22sp</item>
+   </style>
+
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat"> </style>
+
+    <!-- Application theme.
+
+    -->
+    <style name="App1Theme" parent="AppBaseTheme">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:itemBackground">@color/LightSkyBlue</item>
+        <item name="android:itemTextAppearance">?android:textAppearanceMedium</item>
+    </style>
+</resources>
